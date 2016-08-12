@@ -1,7 +1,7 @@
 Package: AddInfo
 Title: Performs the adaptive external information estimator from Tarima and
     Pavlov (2006)
-Version: 0.1
+Version: 0.2
 Authors@R: person("Nicholas", "DeVogel", email = "ndevogel@mcw.edu", role = c("aut", "cre"))
 Description: Tarima and Pavlov (2006) prevents a method of estimating a
     parameter of interest while using information provided from an external source
@@ -12,3 +12,4 @@ Description: Tarima and Pavlov (2006) prevents a method of estimating a
     adaptive method of doing this, which is exactly what is implemented here.
 LazyData: TRUE
 RoxygenNote: 5.0.1
+Depends: Matrix
