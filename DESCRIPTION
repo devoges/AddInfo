@@ -12,3 +12,4 @@ Description: Tarima and Pavlov (2006) prevents a method of estimating a
     adaptive method of doing this, which is exactly what is implemented here.
 LazyData: TRUE
 RoxygenNote: 5.0.1
+Depends: Matrix
