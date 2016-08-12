@@ -68,7 +68,7 @@
 #' res = Ext.est(data, func.theta, means, vars, funcs, B = 500); t = res[[1]]; v = res[[2]]
 #' lower = t - 1.96*sqrt(v); upper = t + 1.96*sqrt(v)
 #' ###Now the estimate, using the uncertain external data, is still aobut 0.62,
-#' which shows that the external data is having less of an influence, with interval
+#' ###which shows that the external data is having less of an influence, with interval
 #' ###0.52 to 0.72
 #'
 #'
