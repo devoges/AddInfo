@@ -1,0 +1,14 @@
+Package: AddInfo
+Title: Performs the adaptive external information estimator from Tarima and
+    Pavlov (2006)
+Version: 0.1
+Authors@R: person("Nicholas", "DeVogel", email = "ndevogel@mcw.edu", role = c("aut", "cre"))
+Description: Tarima and Pavlov (2006) prevents a method of estimating a
+    parameter of interest while using information provided from an external source
+    such as previous publications. The external information need not be the same
+    parameter as the one of interest, as long as the parameter (s) from the external
+    information can be calculated using data you have it can be used to decrease the
+    variance in estimating your parameter of interest. The paper also describes an
+    adaptive method of doing this, which is exactly what is implemented here.
+LazyData: TRUE
+RoxygenNote: 5.0.1
